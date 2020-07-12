@@ -17,7 +17,7 @@ import matplotlib
 # matplotlib.use("TkAgg")
 matplotlib.use("Agg")
 COLOR = "black"
-BACKGROUND_COLOR = "#fff"
+BACKGROUND_COLOR = "#fff" #color rojo
 
 
 def main():
