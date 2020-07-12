@@ -1,17 +1,18 @@
-"""This application experiments with the (grid) layout and some styling
+"""Esta aplicación crea un layout grid y estilos
 
 Can we make a compact dashboard across several columns and with a dark theme?"""
 import io
 from typing import List, Optional
 
-import markdown
-import matplotlib
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 from plotly import express as px
 from plotly.subplots import make_subplots
+import markdown
+import matplotlib
 
 # matplotlib.use("TkAgg")
 matplotlib.use("Agg")
